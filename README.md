@@ -18,3 +18,11 @@ The level can be adjusted. Modulation is disabled in TX mode.
 A 4 pole switch is used to switch between AM and FM modulation, a lot of the connection points for this are in the back of the radio hence the placement of the switch there.
 
 Installation instructions are provided but only for a specific but common Cybernet chassis.
+
+**update**
+
+I uploaded a new version 2.1 which uses SMD resistors and capacitors resulting in a smaller board.
+Since the coil can be a red core or yellow core without or with integrated parallel capacitor i included some configuration options and jumper pads to select the connections. I tested a new yellow core coil from Bohinda which can be sourced from aliexpress, part number is on the schematic, since there are many versions double check before ordering. Also changed a few values to improve the RF part, coil parallel capacitor is updated to get the tuning about mid of the core adjustment for red core coils that do not have this capacitor inside, if you build the version 1 i recommend to modify the capacitor.
+
+
+
